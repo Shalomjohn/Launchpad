@@ -72,6 +72,10 @@
             white-space: nowrap;
             -webkit-overflow-scrolling: touch;
         }
+
+        .btn-space {
+            margin-right: 8px;
+        }
     </style>
 
 
@@ -119,9 +123,9 @@
     <main>
 
         <div class="py-5 col-md-12 text-center mt-5">
-            <button onclick="window.location.href = `/`" type="button" class="btn btn-dark">Home</button>
-            <button onclick="window.location.replace('own')" type="button" class="btn btn-dark">Own</button>
-            <button type="button" class="btn btn-dark">Create</button>
+            <button onclick="window.location.href = `/`" type="button" class="btn btn-dark btn-space"> HOME </button>
+            <button onclick="window.location.replace('own')" type="button" class="btn btn-dark btn-space"> OWN </button>
+            <button type="button" class="btn btn-dark"> CREATE </button>
         </div>
 
         {% block content %}{% endblock content %}
